@@ -7,4 +7,4 @@ Pyqt5
 ## 구현목록
 #### 1. sort
 > 1. bubble sort 
-2. insert sort
+> 2. insert sort
