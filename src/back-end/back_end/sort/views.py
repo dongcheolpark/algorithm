@@ -5,4 +5,4 @@ from django.views.decorators.csrf import csrf_exempt
 @csrf_exempt
 def sort(request):
     result = open('out.json')
-    return result
+    return HttpResponse(result)
