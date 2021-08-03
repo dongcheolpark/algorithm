@@ -1,10 +1,13 @@
 <template>
   <div class="box">
-    <div class="graph"> 
+    <div id="app-4"> 
+      <ol>
+      </ol> 
     </div>
   </div>
 </template>
 <script>
+
 export default {
   name :"Screen",
   props:{
