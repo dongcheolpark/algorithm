@@ -1,5 +1,9 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 #include "sort.hpp"
+
+using namespace std;
 
 /*
 	argv[0] : size
@@ -11,13 +15,14 @@
 
 
 void print_json(vector<int *> * json,int size) {
-	ofstream fout("out.json");
+	ofstream fout;
+	fout.open("out.json");
 
 	fout << "{ \"data\" : [";
 	for(auto item : *json) {
 		fout<< "[";
 		for(int i = 0;i<size;i++) {
-			fout<<item;
+			fout<<item[i];
 			if(i!= size-1) {
 				fout<<",";
 			}
@@ -26,12 +31,20 @@ void print_json(vector<int *> * json,int size) {
 		if(item != json->back()) {
 			fout<< ",";
 		}
+		delete item;
 	}
-	fout<<"]}"
+	fout<<"]}";
+	delete json;
 }
 
 int main(int argc, char *argv[]) {
-	Sort sort;
-
+	if(argc == 1) {
+		cout<<"please input parameters";
+		return -1;
+	} 
+	int size = stoi(argv[1]);
+	Sort sort(size);
+	sort.suffle(20);
+	print_json(sort.bubble_sort(),size);
 	return 0;
 }

@@ -17,8 +17,8 @@ public:
 	Sort(int n) {
 		data = new int[n];
 		size = n;
-		for(int i = 1;i<n;i++) {
-			data[i] = i;
+		for(int i = 0;i<n;i++) {
+			data[i] = i+1;
 		}
 	}
 	~Sort() {

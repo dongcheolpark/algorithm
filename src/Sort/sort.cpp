@@ -1,5 +1,5 @@
 #include <iostream>
-#include <time.h>
+#include <random>
 #include <vector>
 #include "sort.hpp"
 
@@ -12,13 +12,17 @@ void Sort::swap(int& a,int& b) {
 }
 
 void Sort::suffle(int t) {
-	srand(time(NULL));	
+	random_device rd;
+
+	mt19937 gen(rd());
+
+	uniform_int_distribution<int> dis(0, size-1);
 
 	for(int i = 0;i<t;i++) {
-		int randNum1 = rand() % size;
-		int randNum2 = rand() % size;
+		int randNum1 = dis(gen);
+		int randNum2 = dis(gen);
 
-		swap(data[randNum1],data[randNum1]);
+		swap(data[randNum1],data[randNum2]);
 	}
 }
 
@@ -32,10 +36,11 @@ int * Sort::copy() {
 
 vector<int *> * Sort::bubble_sort() {
 	vector<int *> * result = new vector<int *>;
+	result->push_back(copy());
 
 	for(int i = 0;i<size;i++) {
-		for(int j = 0;j<size;j++) {
-			if(data[i]<data[j]) {
+		for(int j = i;j<size;j++) {
+			if(data[i]>data[j]) {
 				swap(data[i],data[j]);
 				result->push_back(copy());
 			}
