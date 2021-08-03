@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 #include "sort.hpp"
 
 using namespace std;
@@ -45,6 +46,20 @@ int main(int argc, char *argv[]) {
 	int size = stoi(argv[1]);
 	Sort sort(size);
 	sort.suffle(20);
-	print_json(sort.bubble_sort(),size);
+
+	vector<int*> * (Sort::*func)() = NULL;
+
+	switch (stoi(argv[2])) {
+	case 1:
+		func = &Sort::bubble_sort;
+		break;
+	case 2:
+		func = &Sort::insert_sort;
+		break;
+	default:
+		func = &Sort::bubble_sort;
+		break;
+	}
+	print_json((sort.*func)(),size);
 	return 0;
 }
