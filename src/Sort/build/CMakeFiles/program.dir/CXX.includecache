@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dongcheol/programming/algo/src/Sort/sort.cpp
+iostream
+-
+random
+-
+vector
+-
+sort.hpp
+/home/dongcheol/programming/algo/src/Sort/sort.hpp
+
+/home/dongcheol/programming/algo/src/Sort/sort.hpp
+vector
+-
+
