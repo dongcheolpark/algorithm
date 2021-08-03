@@ -5,9 +5,6 @@ import subprocess
 
 @csrf_exempt
 def sort(request):
-    size = str(request.GET['size'])
-    sort_type = str(request.GET['type'])
-    print(size, sort_type)
-    subprocess.run(['./program', size, sort_type])
+    subprocess.run(['./program','10','1'])
     result = open('out.json')
     return HttpResponse(result)
