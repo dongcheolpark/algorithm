@@ -9,3 +9,4 @@ vue-cli, django, c++ console
 #### 1. sort
 > 1. bubble sort 
 > 2. insert sort
+> 3. selection sort
