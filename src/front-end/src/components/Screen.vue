@@ -1,18 +1,26 @@
 <template>
   <div class="box">
-    <div id="app-4"> 
-      <ol>
-      </ol> 
+    <div class="graph">
+      <box v-bind:height="i" v-for="i in list" :key="{i}"/>
     </div>
   </div>
 </template>
 <script>
+import Box from './Box.vue';
 
 export default {
   name :"Screen",
+  data() {
+    return {
+      list : [10,20,30,40,50]
+    };
+  },
   props:{
     msg:String,
   },
+  components : {
+    Box,
+  }
 };
 </script>
 

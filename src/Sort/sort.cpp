@@ -106,7 +106,3 @@ vector<int *> * Sort::selection_sort() {
 	}
 	return result;
 }
-
-vector<int *> * Sort::merge_sort() {
-	vector<int *> * result = new vector<int *>;
-}
