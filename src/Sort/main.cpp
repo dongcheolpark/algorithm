@@ -45,21 +45,8 @@ int main(int argc, char *argv[]) {
 	} 
 	int size = stoi(argv[1]);
 	Sort sort(size);
-	sort.suffle(20);
+	sort.suffle(size*2);
 
-	vector<int*> * (Sort::*func)() = NULL;
-
-	switch (stoi(argv[2])) {
-	case 1:
-		func = &Sort::bubble_sort;
-		break;
-	case 2:
-		func = &Sort::insert_sort;
-		break;
-	default:
-		func = &Sort::bubble_sort;
-		break;
-	}
-	print_json((sort.*func)(),size);
+	print_json(sort.run(stoi(argv[2])),size);
 	return 0;
 }

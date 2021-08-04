@@ -34,6 +34,28 @@ int * Sort::copy() {
 	return res;
 }
 
+vector<int *> * Sort::run(int x) {
+	vector<int*> * (Sort::*func)() = NULL;
+
+	switch (x) {
+	case 1:
+		func = &Sort::bubble_sort;
+		break;
+	case 2:
+		func = &Sort::insert_sort;
+		break;
+	case 3:
+		func = &Sort::selection_sort;
+		break;
+	default:
+		func = &Sort::bubble_sort;
+		break;
+	}
+
+	return (this->*func)();
+}
+
+
 vector<int *> * Sort::bubble_sort() {
 	vector<int *> * result = new vector<int *>;
 	result->push_back(copy());
@@ -64,4 +86,27 @@ vector<int *> * Sort::insert_sort() {
 		result->push_back(copy());
 	}
 	return result;
+}
+
+vector<int *> * Sort::selection_sort() {
+	vector<int *> * result = new vector<int *>;
+	result->push_back(copy());
+
+	for(int i = 0;i<size-1;i++) {
+		int least = i;
+		for(int j = i+1; j<size;j++) {
+			if(data[j]<data[least]) {
+				least = j;
+			}
+		}
+		if(least != i) {
+			swap(data[i],data[least]);
+			result->push_back(copy());
+		}
+	}
+	return result;
+}
+
+vector<int *> * Sort::merge_sort() {
+	vector<int *> * result = new vector<int *>;
 }

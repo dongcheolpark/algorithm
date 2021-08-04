@@ -25,8 +25,13 @@ public:
 		delete data;
 	}
 	void suffle(int); 
+	//O(n^2) Sort
+	vector<int *> * run(int);
 	vector<int *> * bubble_sort();
 	vector<int *> * insert_sort();
+	vector<int *> * selection_sort();
+	//O(nlogn) Sort
+	vector<int *> * merge_sort();
 
 };
 
