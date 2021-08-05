@@ -4,13 +4,9 @@
 
 <script>
 export default {
-	data() {
-		return {
-			width : 10,
-		};
-	},
 	props : {
-		height : String
+		height : Number,
+		width : Number,
 	}
 };
 </script>
@@ -20,7 +16,7 @@ export default {
 .box { 
 	display: inline-block;
 	background: #AFEEEE;
-	margin: 1px;
+	margin : 1px #fff;
 }
 
 </style>

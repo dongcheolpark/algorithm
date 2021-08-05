@@ -24,7 +24,7 @@ public:
 	~Sort() {
 		delete data;
 	}
-	void suffle(int); 
+	void suffle(); 
 	//O(n^2) Sort
 	vector<int *> * run(int);
 	vector<int *> * bubble_sort();

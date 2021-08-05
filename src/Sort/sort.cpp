@@ -11,18 +11,17 @@ void Sort::swap(int& a,int& b) {
 	b = tmp;
 }
 
-void Sort::suffle(int t) {
+void Sort::suffle() {
 	random_device rd;
 
 	mt19937 gen(rd());
 
 	uniform_int_distribution<int> dis(0, size-1);
 
-	for(int i = 0;i<t;i++) {
-		int randNum1 = dis(gen);
-		int randNum2 = dis(gen);
+	for(int i = 0;i<size;i++) {
+		int randNum = dis(gen);
 
-		swap(data[randNum1],data[randNum2]);
+		swap(data[i],data[randNum]);
 	}
 }
 

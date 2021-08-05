@@ -45,7 +45,7 @@ int main(int argc, char *argv[]) {
 	} 
 	int size = stoi(argv[1]);
 	Sort sort(size);
-	sort.suffle(size*2);
+	sort.suffle();
 
 	print_json(sort.run(stoi(argv[2])),size);
 	return 0;
