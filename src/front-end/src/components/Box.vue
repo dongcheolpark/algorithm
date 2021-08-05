@@ -6,7 +6,7 @@
 export default {
 	data() {
 		return {
-			width : 40,
+			width : 10,
 		};
 	},
 	props : {
@@ -19,7 +19,8 @@ export default {
 
 .box { 
 	display: inline-block;
-	border : 1px solid #000
+	background: #AFEEEE;
+	margin: 1px;
 }
 
 </style>
