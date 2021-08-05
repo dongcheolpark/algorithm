@@ -32,7 +32,7 @@ public:
 	vector<int *> * selection_sort();
 	//O(nlogn) Sort
 	vector<int *> * merge_sort();
-
+	vector<int *> * quick_sort();
 };
 
 #endif
