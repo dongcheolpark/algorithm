@@ -10,6 +10,7 @@ vue-cli, django, c++ console
 > 1. bubble sort 
 > 2. insert sort
 > 3. selection sort
+> 4. merge sort
 
 ## RESTful api
 rest api를 제공합니다.
