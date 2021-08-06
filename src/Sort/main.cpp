@@ -12,6 +12,7 @@ using namespace std;
 
 	1. bubble sort
 	2. insert sort
+	3. selection sort
 */
 
 

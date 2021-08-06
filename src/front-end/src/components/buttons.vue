@@ -7,6 +7,7 @@
 				<option value="1">bubble sort</option>
 				<option value="2">insert sort</option>
 				<option value="3">selection sort</option>
+				<option value="4">merge sort</option>
 			</select>
 		</div>
 		<button v-on:click="clickEvent">click me</button>

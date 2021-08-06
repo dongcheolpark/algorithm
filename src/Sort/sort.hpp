@@ -11,6 +11,11 @@ private:
 	int size;
 	void swap(int&,int&);
 	int * copy();
+	int * copy(int,int);
+
+	//merge sort implements
+	void merge(int,int,int,vector<int *> *);
+	void divide_merge_sort(int,int,vector<int *> *);
 
 public:
 

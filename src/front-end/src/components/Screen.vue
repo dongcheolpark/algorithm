@@ -31,7 +31,7 @@ export default {
           this.stop = true;
           this.list = Response.data.data;
           this.count = this.list[0].length;
-          this.box_width /= this.count;
+          this.box_width /= this.count+1;
         })
         .catch(e => {
           console.log(e);
@@ -54,7 +54,7 @@ export default {
     this.$nextTick(() => {
       window.addEventListener('resize',() => {
         this.box_width = this.$refs.graph.scrollWidth;
-        this.box_width /= this.count;
+        this.box_width /= this.count+1;
       })
     })
   },

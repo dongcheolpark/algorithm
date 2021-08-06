@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/dongcheol/programming/algo/src/Sort/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/program.dir/main.cpp.o -c /home/dongcheol/programming/algo/src/Sort/main.cpp",
+  "file": "/home/dongcheol/programming/algo/src/Sort/main.cpp"
+},
+{
+  "directory": "/home/dongcheol/programming/algo/src/Sort/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/program.dir/sort.cpp.o -c /home/dongcheol/programming/algo/src/Sort/sort.cpp",
+  "file": "/home/dongcheol/programming/algo/src/Sort/sort.cpp"
+}
+]

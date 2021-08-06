@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/program.dir/main.cpp.o CMakeFiles/program.dir/sort.cpp.o  -o program 
+/bin/x86_64-linux-gnu-g++-9  -g   CMakeFiles/program.dir/main.cpp.o CMakeFiles/program.dir/sort.cpp.o  -o program 

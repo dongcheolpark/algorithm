@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/dongcheol/programming/algo/src/Sort/main.cpp
-iostream
--
-fstream
--
-string
--
-vector
--
-sort.hpp
-/home/dongcheol/programming/algo/src/Sort/sort.hpp
-
 /home/dongcheol/programming/algo/src/Sort/sort.cpp
 iostream
 -
