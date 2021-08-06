@@ -1,1 +1,1 @@
-/bin/x86_64-linux-gnu-g++-9  -g   CMakeFiles/program.dir/main.cpp.o CMakeFiles/program.dir/sort.cpp.o  -o program 
+/bin/x86_64-linux-gnu-g++-9  -g   CMakeFiles/program.dir/main.cpp.o CMakeFiles/program.dir/Sort/sort.cpp.o CMakeFiles/program.dir/Sort/bubble_sort.cpp.o CMakeFiles/program.dir/Sort/insert_sort.cpp.o CMakeFiles/program.dir/Sort/selection_sort.cpp.o CMakeFiles/program.dir/Sort/merge_sort.cpp.o  -o program 

@@ -70,32 +70,92 @@ CMakeFiles/program.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/main.cpp.s"
 	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongcheol/programming/algo/src/Sort/main.cpp -o CMakeFiles/program.dir/main.cpp.s
 
-CMakeFiles/program.dir/sort.cpp.o: CMakeFiles/program.dir/flags.make
-CMakeFiles/program.dir/sort.cpp.o: ../sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/sort.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/sort.cpp.o -c /home/dongcheol/programming/algo/src/Sort/sort.cpp
+CMakeFiles/program.dir/Sort/sort.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/Sort/sort.cpp.o: ../Sort/sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/Sort/sort.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/Sort/sort.cpp.o -c /home/dongcheol/programming/algo/src/Sort/Sort/sort.cpp
 
-CMakeFiles/program.dir/sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/sort.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongcheol/programming/algo/src/Sort/sort.cpp > CMakeFiles/program.dir/sort.cpp.i
+CMakeFiles/program.dir/Sort/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/Sort/sort.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongcheol/programming/algo/src/Sort/Sort/sort.cpp > CMakeFiles/program.dir/Sort/sort.cpp.i
 
-CMakeFiles/program.dir/sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/sort.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongcheol/programming/algo/src/Sort/sort.cpp -o CMakeFiles/program.dir/sort.cpp.s
+CMakeFiles/program.dir/Sort/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/Sort/sort.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongcheol/programming/algo/src/Sort/Sort/sort.cpp -o CMakeFiles/program.dir/Sort/sort.cpp.s
+
+CMakeFiles/program.dir/Sort/bubble_sort.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/Sort/bubble_sort.cpp.o: ../Sort/bubble_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/program.dir/Sort/bubble_sort.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/Sort/bubble_sort.cpp.o -c /home/dongcheol/programming/algo/src/Sort/Sort/bubble_sort.cpp
+
+CMakeFiles/program.dir/Sort/bubble_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/Sort/bubble_sort.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongcheol/programming/algo/src/Sort/Sort/bubble_sort.cpp > CMakeFiles/program.dir/Sort/bubble_sort.cpp.i
+
+CMakeFiles/program.dir/Sort/bubble_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/Sort/bubble_sort.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongcheol/programming/algo/src/Sort/Sort/bubble_sort.cpp -o CMakeFiles/program.dir/Sort/bubble_sort.cpp.s
+
+CMakeFiles/program.dir/Sort/insert_sort.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/Sort/insert_sort.cpp.o: ../Sort/insert_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/program.dir/Sort/insert_sort.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/Sort/insert_sort.cpp.o -c /home/dongcheol/programming/algo/src/Sort/Sort/insert_sort.cpp
+
+CMakeFiles/program.dir/Sort/insert_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/Sort/insert_sort.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongcheol/programming/algo/src/Sort/Sort/insert_sort.cpp > CMakeFiles/program.dir/Sort/insert_sort.cpp.i
+
+CMakeFiles/program.dir/Sort/insert_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/Sort/insert_sort.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongcheol/programming/algo/src/Sort/Sort/insert_sort.cpp -o CMakeFiles/program.dir/Sort/insert_sort.cpp.s
+
+CMakeFiles/program.dir/Sort/selection_sort.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/Sort/selection_sort.cpp.o: ../Sort/selection_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/program.dir/Sort/selection_sort.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/Sort/selection_sort.cpp.o -c /home/dongcheol/programming/algo/src/Sort/Sort/selection_sort.cpp
+
+CMakeFiles/program.dir/Sort/selection_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/Sort/selection_sort.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongcheol/programming/algo/src/Sort/Sort/selection_sort.cpp > CMakeFiles/program.dir/Sort/selection_sort.cpp.i
+
+CMakeFiles/program.dir/Sort/selection_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/Sort/selection_sort.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongcheol/programming/algo/src/Sort/Sort/selection_sort.cpp -o CMakeFiles/program.dir/Sort/selection_sort.cpp.s
+
+CMakeFiles/program.dir/Sort/merge_sort.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/Sort/merge_sort.cpp.o: ../Sort/merge_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/program.dir/Sort/merge_sort.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/Sort/merge_sort.cpp.o -c /home/dongcheol/programming/algo/src/Sort/Sort/merge_sort.cpp
+
+CMakeFiles/program.dir/Sort/merge_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/Sort/merge_sort.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongcheol/programming/algo/src/Sort/Sort/merge_sort.cpp > CMakeFiles/program.dir/Sort/merge_sort.cpp.i
+
+CMakeFiles/program.dir/Sort/merge_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/Sort/merge_sort.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongcheol/programming/algo/src/Sort/Sort/merge_sort.cpp -o CMakeFiles/program.dir/Sort/merge_sort.cpp.s
 
 # Object files for target program
 program_OBJECTS = \
 "CMakeFiles/program.dir/main.cpp.o" \
-"CMakeFiles/program.dir/sort.cpp.o"
+"CMakeFiles/program.dir/Sort/sort.cpp.o" \
+"CMakeFiles/program.dir/Sort/bubble_sort.cpp.o" \
+"CMakeFiles/program.dir/Sort/insert_sort.cpp.o" \
+"CMakeFiles/program.dir/Sort/selection_sort.cpp.o" \
+"CMakeFiles/program.dir/Sort/merge_sort.cpp.o"
 
 # External object files for target program
 program_EXTERNAL_OBJECTS =
 
 program: CMakeFiles/program.dir/main.cpp.o
-program: CMakeFiles/program.dir/sort.cpp.o
+program: CMakeFiles/program.dir/Sort/sort.cpp.o
+program: CMakeFiles/program.dir/Sort/bubble_sort.cpp.o
+program: CMakeFiles/program.dir/Sort/insert_sort.cpp.o
+program: CMakeFiles/program.dir/Sort/selection_sort.cpp.o
+program: CMakeFiles/program.dir/Sort/merge_sort.cpp.o
 program: CMakeFiles/program.dir/build.make
 program: CMakeFiles/program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable program"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/program.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

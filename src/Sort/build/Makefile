@@ -123,6 +123,141 @@ program/fast:
 	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build
 .PHONY : program/fast
 
+Sort/bubble_sort.o: Sort/bubble_sort.cpp.o
+
+.PHONY : Sort/bubble_sort.o
+
+# target to build an object file
+Sort/bubble_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/bubble_sort.cpp.o
+.PHONY : Sort/bubble_sort.cpp.o
+
+Sort/bubble_sort.i: Sort/bubble_sort.cpp.i
+
+.PHONY : Sort/bubble_sort.i
+
+# target to preprocess a source file
+Sort/bubble_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/bubble_sort.cpp.i
+.PHONY : Sort/bubble_sort.cpp.i
+
+Sort/bubble_sort.s: Sort/bubble_sort.cpp.s
+
+.PHONY : Sort/bubble_sort.s
+
+# target to generate assembly for a file
+Sort/bubble_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/bubble_sort.cpp.s
+.PHONY : Sort/bubble_sort.cpp.s
+
+Sort/insert_sort.o: Sort/insert_sort.cpp.o
+
+.PHONY : Sort/insert_sort.o
+
+# target to build an object file
+Sort/insert_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/insert_sort.cpp.o
+.PHONY : Sort/insert_sort.cpp.o
+
+Sort/insert_sort.i: Sort/insert_sort.cpp.i
+
+.PHONY : Sort/insert_sort.i
+
+# target to preprocess a source file
+Sort/insert_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/insert_sort.cpp.i
+.PHONY : Sort/insert_sort.cpp.i
+
+Sort/insert_sort.s: Sort/insert_sort.cpp.s
+
+.PHONY : Sort/insert_sort.s
+
+# target to generate assembly for a file
+Sort/insert_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/insert_sort.cpp.s
+.PHONY : Sort/insert_sort.cpp.s
+
+Sort/merge_sort.o: Sort/merge_sort.cpp.o
+
+.PHONY : Sort/merge_sort.o
+
+# target to build an object file
+Sort/merge_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/merge_sort.cpp.o
+.PHONY : Sort/merge_sort.cpp.o
+
+Sort/merge_sort.i: Sort/merge_sort.cpp.i
+
+.PHONY : Sort/merge_sort.i
+
+# target to preprocess a source file
+Sort/merge_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/merge_sort.cpp.i
+.PHONY : Sort/merge_sort.cpp.i
+
+Sort/merge_sort.s: Sort/merge_sort.cpp.s
+
+.PHONY : Sort/merge_sort.s
+
+# target to generate assembly for a file
+Sort/merge_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/merge_sort.cpp.s
+.PHONY : Sort/merge_sort.cpp.s
+
+Sort/selection_sort.o: Sort/selection_sort.cpp.o
+
+.PHONY : Sort/selection_sort.o
+
+# target to build an object file
+Sort/selection_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/selection_sort.cpp.o
+.PHONY : Sort/selection_sort.cpp.o
+
+Sort/selection_sort.i: Sort/selection_sort.cpp.i
+
+.PHONY : Sort/selection_sort.i
+
+# target to preprocess a source file
+Sort/selection_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/selection_sort.cpp.i
+.PHONY : Sort/selection_sort.cpp.i
+
+Sort/selection_sort.s: Sort/selection_sort.cpp.s
+
+.PHONY : Sort/selection_sort.s
+
+# target to generate assembly for a file
+Sort/selection_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/selection_sort.cpp.s
+.PHONY : Sort/selection_sort.cpp.s
+
+Sort/sort.o: Sort/sort.cpp.o
+
+.PHONY : Sort/sort.o
+
+# target to build an object file
+Sort/sort.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/sort.cpp.o
+.PHONY : Sort/sort.cpp.o
+
+Sort/sort.i: Sort/sort.cpp.i
+
+.PHONY : Sort/sort.i
+
+# target to preprocess a source file
+Sort/sort.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/sort.cpp.i
+.PHONY : Sort/sort.cpp.i
+
+Sort/sort.s: Sort/sort.cpp.s
+
+.PHONY : Sort/sort.s
+
+# target to generate assembly for a file
+Sort/sort.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/sort.cpp.s
+.PHONY : Sort/sort.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,33 +285,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-sort.o: sort.cpp.o
-
-.PHONY : sort.o
-
-# target to build an object file
-sort.cpp.o:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/sort.cpp.o
-.PHONY : sort.cpp.o
-
-sort.i: sort.cpp.i
-
-.PHONY : sort.i
-
-# target to preprocess a source file
-sort.cpp.i:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/sort.cpp.i
-.PHONY : sort.cpp.i
-
-sort.s: sort.cpp.s
-
-.PHONY : sort.s
-
-# target to generate assembly for a file
-sort.cpp.s:
-	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/sort.cpp.s
-.PHONY : sort.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... program"
+	@echo "... Sort/bubble_sort.o"
+	@echo "... Sort/bubble_sort.i"
+	@echo "... Sort/bubble_sort.s"
+	@echo "... Sort/insert_sort.o"
+	@echo "... Sort/insert_sort.i"
+	@echo "... Sort/insert_sort.s"
+	@echo "... Sort/merge_sort.o"
+	@echo "... Sort/merge_sort.i"
+	@echo "... Sort/merge_sort.s"
+	@echo "... Sort/selection_sort.o"
+	@echo "... Sort/selection_sort.i"
+	@echo "... Sort/selection_sort.s"
+	@echo "... Sort/sort.o"
+	@echo "... Sort/sort.i"
+	@echo "... Sort/sort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... sort.o"
-	@echo "... sort.i"
-	@echo "... sort.s"
 .PHONY : help
 
 

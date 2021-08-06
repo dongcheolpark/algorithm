@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include "sort.hpp"
+#include "./Sort/sort.hpp"
 
 using namespace std;
 
@@ -45,9 +45,30 @@ int main(int argc, char *argv[]) {
 		return -1;
 	} 
 	int size = stoi(argv[1]);
-	Sort sort(size);
-	sort.suffle();
+	Sort * sort = NULL;
 
-	print_json(sort.run(stoi(argv[2])),size);
+	switch (stoi(argv[2]))
+	{
+	case 1:
+		sort = new bubble_sort(size);
+		break;
+	case 2:
+		sort = new insert_sort(size);
+		break;
+	case 3:
+		sort = new selection_sort(size);
+		break;
+	case 4:
+		sort = new merge_sort(size);
+		break;
+	default:
+		sort = new bubble_sort(size);
+		break;
+	}
+
+	sort->suffle();
+
+	print_json(sort->run(),size);
+
 	return 0;
 }
