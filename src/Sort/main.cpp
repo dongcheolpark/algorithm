@@ -61,6 +61,9 @@ int main(int argc, char *argv[]) {
 	case 4:
 		sort = new merge_sort(size);
 		break;
+	case 5:
+		sort = new quick_sort(size);
+		break;
 	default:
 		sort = new bubble_sort(size);
 		break;

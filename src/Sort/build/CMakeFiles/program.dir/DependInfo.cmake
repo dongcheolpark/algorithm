@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dongcheol/programming/algo/src/Sort/Sort/bubble_sort.cpp" "/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles/program.dir/Sort/bubble_sort.cpp.o"
   "/home/dongcheol/programming/algo/src/Sort/Sort/insert_sort.cpp" "/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles/program.dir/Sort/insert_sort.cpp.o"
   "/home/dongcheol/programming/algo/src/Sort/Sort/merge_sort.cpp" "/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles/program.dir/Sort/merge_sort.cpp.o"
+  "/home/dongcheol/programming/algo/src/Sort/Sort/quick_sort.cpp" "/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles/program.dir/Sort/quick_sort.cpp.o"
   "/home/dongcheol/programming/algo/src/Sort/Sort/selection_sort.cpp" "/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles/program.dir/Sort/selection_sort.cpp.o"
   "/home/dongcheol/programming/algo/src/Sort/Sort/sort.cpp" "/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles/program.dir/Sort/sort.cpp.o"
   "/home/dongcheol/programming/algo/src/Sort/main.cpp" "/home/dongcheol/programming/algo/src/Sort/build/CMakeFiles/program.dir/main.cpp.o"

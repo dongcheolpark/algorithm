@@ -14,6 +14,7 @@ http://152.70.245.152:8080/ 에서 확인할 수 있습니다.
 > 2. insert sort
 > 3. selection sort
 > 4. merge sort
+> 5. quick sort
 
 ## RESTful api
 rest api를 제공합니다.

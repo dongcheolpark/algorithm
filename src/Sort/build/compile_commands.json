@@ -28,5 +28,10 @@
   "directory": "/home/dongcheol/programming/algo/src/Sort/build",
   "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/program.dir/Sort/merge_sort.cpp.o -c /home/dongcheol/programming/algo/src/Sort/Sort/merge_sort.cpp",
   "file": "/home/dongcheol/programming/algo/src/Sort/Sort/merge_sort.cpp"
+},
+{
+  "directory": "/home/dongcheol/programming/algo/src/Sort/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9    -g   -o CMakeFiles/program.dir/Sort/quick_sort.cpp.o -c /home/dongcheol/programming/algo/src/Sort/Sort/quick_sort.cpp",
+  "file": "/home/dongcheol/programming/algo/src/Sort/Sort/quick_sort.cpp"
 }
 ]

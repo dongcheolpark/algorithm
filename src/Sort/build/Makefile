@@ -204,6 +204,33 @@ Sort/merge_sort.cpp.s:
 	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/merge_sort.cpp.s
 .PHONY : Sort/merge_sort.cpp.s
 
+Sort/quick_sort.o: Sort/quick_sort.cpp.o
+
+.PHONY : Sort/quick_sort.o
+
+# target to build an object file
+Sort/quick_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/quick_sort.cpp.o
+.PHONY : Sort/quick_sort.cpp.o
+
+Sort/quick_sort.i: Sort/quick_sort.cpp.i
+
+.PHONY : Sort/quick_sort.i
+
+# target to preprocess a source file
+Sort/quick_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/quick_sort.cpp.i
+.PHONY : Sort/quick_sort.cpp.i
+
+Sort/quick_sort.s: Sort/quick_sort.cpp.s
+
+.PHONY : Sort/quick_sort.s
+
+# target to generate assembly for a file
+Sort/quick_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/Sort/quick_sort.cpp.s
+.PHONY : Sort/quick_sort.cpp.s
+
 Sort/selection_sort.o: Sort/selection_sort.cpp.o
 
 .PHONY : Sort/selection_sort.o
@@ -303,6 +330,9 @@ help:
 	@echo "... Sort/merge_sort.o"
 	@echo "... Sort/merge_sort.i"
 	@echo "... Sort/merge_sort.s"
+	@echo "... Sort/quick_sort.o"
+	@echo "... Sort/quick_sort.i"
+	@echo "... Sort/quick_sort.s"
 	@echo "... Sort/selection_sort.o"
 	@echo "... Sort/selection_sort.i"
 	@echo "... Sort/selection_sort.s"

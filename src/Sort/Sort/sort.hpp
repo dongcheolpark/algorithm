@@ -66,6 +66,8 @@ public:
 };
 
 class quick_sort:public Sort {//quick sort
+private:
+	void divide(int,int,vector<int*>*);
 public:
 	quick_sort(int n) : Sort(n) {}
 	vector<int*> * run();
