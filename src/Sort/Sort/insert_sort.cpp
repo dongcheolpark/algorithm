@@ -1,8 +1,8 @@
 #include <vector>
 #include "sort.hpp"
 
-vector<int *> * insert_sort::run() {
-	vector<int *> * result = new vector<int *>;
+vec_int insert_sort::run() {
+	vec_int result = new vector<int *>;
 	result->push_back(copy());
 	int j = 0;
 

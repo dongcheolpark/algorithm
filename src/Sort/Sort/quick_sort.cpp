@@ -1,14 +1,14 @@
 #include <vector>
 #include "sort.hpp"
 
-vector<int *> * quick_sort::run() {
-	vector<int *> * result = new vector<int *>;
+vec_int quick_sort::run() {
+	vec_int result = new vector<int *>;
 	result->push_back(copy());
 	divide(0,size-1,result);
 	return result;
 }
 
-void quick_sort::divide(int left,int right, vector<int*>* result) {
+void quick_sort::divide(int left,int right, vec_int result) {
 	if(left>=right) return;
 	int i = left+1,j=right;
 	int key = left;

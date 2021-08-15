@@ -1,5 +1,7 @@
 #ifndef __SORT_H__
 #define __SORT_H__
+
+typedef vector<int*>* vec_int;
 #include <vector>
 
 using namespace std;
@@ -13,8 +15,8 @@ protected :
 	int * copy(int,int);
 
 	//merge sort implements
-	void merge(int,int,int,vector<int *> *);
-	void divide_merge_sort(int,int,vector<int *> *);
+	void merge(int,int,int,vec_int);
+	void divide_merge_sort(int,int,vec_int);
 
 public:
 
@@ -29,8 +31,8 @@ public:
 		delete data;
 	}
 	void suffle(); 
-	virtual vector<int *> * run() {
-		return new vector<int*>; 
+	virtual vec_int run() {
+		return new vec_int; 
 	};
 };
 
@@ -39,38 +41,38 @@ public:
 class bubble_sort:public Sort { //bubble sort
 public:
 	bubble_sort(int n) : Sort(n) {}
-	vector<int*> * run();
+	vec_int run();
 };
 
 class insert_sort:public Sort { //insert sort
 public:
 	insert_sort(int n) : Sort(n) {}
-	vector<int*> * run();
+	vec_int run();
 };
 
 class selection_sort:public Sort {//selection sort
 public:
 	selection_sort(int n) : Sort(n) {}
-	vector<int*> * run();
+	vec_int run();
 };
 
 //O(nlogn) Sort
 
 class merge_sort:public Sort {//merge sort
 private:
-	void divide_merge_sort(int,int,vector<int*> *);
-	void merge(int,int,int,vector<int*> *);
+	void divide_merge_sort(int,int,vec_int);
+	void merge(int,int,int,vec_int);
 public:
 	merge_sort(int n) : Sort(n) {}
-	vector<int*> * run();
+	vec_int run();
 };
 
 class quick_sort:public Sort {//quick sort
 private:
-	void divide(int,int,vector<int*>*);
+	void divide(int,int,vec_int);
 public:
 	quick_sort(int n) : Sort(n) {}
-	vector<int*> * run();
+	vec_int run();
 };
 
 #endif

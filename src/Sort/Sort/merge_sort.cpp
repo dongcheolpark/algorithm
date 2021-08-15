@@ -2,14 +2,14 @@
 #include <vector>
 #include "sort.hpp"
 
-vector<int *> * merge_sort::run() {
+vec_int merge_sort::run() {
 	vector<int *> * result = new vector<int *>;
 	result->push_back(copy());
 	divide_merge_sort(0,size-1,result);
 	return result;
 }
 
-void merge_sort::divide_merge_sort(int left,int right,vector<int*> * result) {
+void merge_sort::divide_merge_sort(int left,int right,vec_int result) {
 	if(left == right) return;
 	int mid = (left+right)/2;
 
@@ -18,7 +18,7 @@ void merge_sort::divide_merge_sort(int left,int right,vector<int*> * result) {
 	merge(left,mid,right,result);
 }
 
-void merge_sort::merge(int left,int mid, int right, vector<int*> * result) {
+void merge_sort::merge(int left,int mid, int right, vec_int result) {
 	int * arr = copy(left,right);
 	int n = right-left;
 	int left_ptr = 0,right_ptr = mid-left+1;

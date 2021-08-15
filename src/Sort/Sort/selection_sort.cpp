@@ -1,8 +1,8 @@
 #include <vector>
 #include "sort.hpp"
 
-vector<int *> * selection_sort::run() {
-	vector<int *> * result = new vector<int *>;
+vec_int selection_sort::run() {
+	vec_int result = new vector<int *>;
 	result->push_back(copy());
 
 	for(int i = 0;i<size-1;i++) {
