@@ -7,12 +7,15 @@
 using namespace std;
 
 /*
-	argv[0] : size
-	argv[1] : sort type
+	argv[1] : size
+	argv[2] : sort type
 
 	1. bubble sort
 	2. insert sort
 	3. selection sort
+	4. merge sort
+	5. quick sort
+
 */
 
 
@@ -72,6 +75,8 @@ int main(int argc, char *argv[]) {
 	sort->suffle();
 
 	print_json(sort->run(),size);
+
+	delete sort;
 
 	return 0;
 }

@@ -1,10 +1,11 @@
 #ifndef __SORT_H__
 #define __SORT_H__
 
-typedef vector<int*>* vec_int;
 #include <vector>
 
 using namespace std;
+
+typedef vector<int*>* vec_int;
 
 class Sort {
 protected :
