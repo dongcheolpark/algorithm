@@ -33,7 +33,7 @@ public:
 	}
 	void suffle(); 
 	virtual vec_int run() {
-		return new vec_int; 
+		return new vector<int *>; 
 	};
 };
 
